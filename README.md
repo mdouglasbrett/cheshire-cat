@@ -1,6 +1,6 @@
 # cheshire-cat
 
-FIXME
+TODO: I originally tried to use latest for every dep in the exercise, but found that I was having trouble getting Leiningen to launch a cljs repl or compile the ClojureScript. Would be worth investigating later...
 
 ## Prerequisites
 
