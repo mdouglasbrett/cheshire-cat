@@ -7,9 +7,7 @@
 
 (defroutes app-routes
   (GET "/" [] "Hello World")
-  (GET "/cheshire-cat" []
-       (rr/response {:name "Cheshire Cat" :status :grinning}))
-  (route/not-found "Not Found"))
+  (route/not-found "Not found"))
 
 (def app
   (-> app-routes
