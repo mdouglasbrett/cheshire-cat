@@ -6,7 +6,7 @@
             [ring.util.response :as rr]))
 
 (defroutes app-routes
-  (GET "/" [] "Hello World")
+  (GET "/" [] "Hello World, this is a clojure app running in a docker container")
   (route/not-found "Not found"))
 
 (def app
